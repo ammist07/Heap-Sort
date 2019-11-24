@@ -1,3 +1,3 @@
 # Heap-Sort
-HeapSort is one of the fast sorting Algorithm, here is the code that uses Heap Sort to Sort N number of Objects. The algorithm has the time complexity of nlog(n).
+HeapSort is one of the fast sorting Algorithm, here is the code that uses Heap Sort to Sort N number of Objects. The algorithm has the time complexity of nlog(n). I have the method heapsort which calls upon the methods maxHeap and swap. The maxHeap method brings the largest number in the array to the first index of the array. Then we swap the first index and the last index of the array. However, once we have swaped the number we should not access or go back to the last index we just swaped the value to in the array because it is already sorted and in its correct position. So we run through the array up to but not including the last index of very stage.
 
